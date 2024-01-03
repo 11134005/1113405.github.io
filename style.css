@@ -1,0 +1,111 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+    *{
+        box-sizing: border-box;
+    }
+  body{font-family: 'Oswald', sans-serif;}
+
+  div.wrap{
+    width: 958px;
+    margin: 16px auto;
+  }
+
+  div.upper-card{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    word-spacing: 290px;
+    width: 958px;
+    height: 32px;
+    background-color: rgba(88, 1, 1, 1);
+    background-size: cover;
+  }
+.about{color: white; word-spacing: 290px;}
+.about:hover{
+    color:gray;}
+
+  div.main-card{
+    color: white;
+    font-size: 78px;
+    font-weight: 700;
+    text-align: center;
+    width: 958px;
+    height: 120px;
+    background-color: rgba(177, 9, 9, 1);
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+
+  div.card{
+    height: 330px;
+    overflow: hidden;
+    width: 958px;
+    background-color: white;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+  div.white{
+    width: 239px;
+    height: 320px;
+    background-image: url(image/white.jpg);
+    background-size: cover;
+    padding-left: 60;
+  }
+  div.red{
+    width: 239px;
+    height: 320px;
+    background-image: url(image/red.jpg);
+    background-size: cover;
+  }
+  div.black{
+    width: 239px;
+    height: 320px;
+    background-image: url(image/black.jpg);
+    background-size: cover;
+  }
+  div.mix{
+    width: 239px;
+    height: 320px;
+    background-image: url(image/mix.jpg);
+    background-size: cover;
+  }
+  section{
+    gap: 5px;
+    display: flex;
+    width: 958px;
+}
+
+.botton{color: white;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgba(177, 9, 9, 1);
+    background-size: cover;
+    border-radius: 16px;
+    width: 125px;
+    text-align: center;
+    text-decoration: none;
+}
+    .botton:hover{
+        color:rgb(215, 20, 20);
+    background-color: black;}
+
+ section2{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 55px;
+    width: 958px;
+}
+div.lower-card{
+    color: black;
+    font-size: 16.5px;
+    font-weight: 400;
+    text-align: center;
+    width: 958px;
+    height: 95px;
+    background-color: rgba(217, 217, 217, 1);
+    background-size: cover;
+    padding-top: 8px;
+  }
